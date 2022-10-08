@@ -35,6 +35,15 @@ mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -Darchetyp
 				</archive>
 			</configuration>
 	</plugin>
+	
+* May be you want to change the original version. In the pom.xml, just here:
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
         
 * Ready to run:
 
