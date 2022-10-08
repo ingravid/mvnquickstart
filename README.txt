@@ -1,5 +1,5 @@
 # mvnquickstart
-Maven basic project from its quickstart archetype 
+Maven basic Java project from its quickstart archetype 
 
 
 * This project maven archetype command:
