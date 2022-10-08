@@ -22,17 +22,19 @@ mvn archetype:generate -DarchetypeGroupId=org.apache.maven.archetypes -Darchetyp
         </plugin>
 
   - By:
-        <groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-jar-plugin</artifactId>
-				<configuration>
-					<archive>
-						<manifest>
-							<mainClass>
-								[ THE Dpackage YOU'D SPECIFIED].App
-							</mainClass>
-						</manifest>
-					</archive>
-				</configuration>
+  	<plugin>
+        	<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-jar-plugin</artifactId>
+			<configuration>
+				<archive>
+					<manifest>
+						<mainClass>
+							[ THE Dpackage YOU'D SPECIFIED].App
+						</mainClass>
+					</manifest>
+				</archive>
+			</configuration>
+	</plugin>
         
 * Ready to run:
 
